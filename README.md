@@ -59,7 +59,7 @@ The `Output-Screenshots` folder inside the Performer project contains screenshot
 - **Dispatcher Publish** – the published Dispatcher process.
 - **Performer Publish** – the published Performer process.
 
-Open the [Output_Screenshots folder](./PDF%20Invoice%20Scraper%20with%20REFramework%20Perfomer/Output-Screenshots/) to view the screenshots.
+Open the [Output_Screenshots folder](https://github.com/Shaik-Mustaq/Robot-5-PDF-Invoice-Scraper-with-REFramework/blob/main/PDF%20Invoice%20Scraper%20with%20REFramework%20Perfomer/Output-Screenshots) to view the screenshots.
 
 ## Technologies Used
 
