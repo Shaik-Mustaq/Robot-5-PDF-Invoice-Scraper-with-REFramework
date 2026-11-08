@@ -52,7 +52,22 @@ Robot-5-PDF-Invoice-Scraper-with-REFramework/
 > The folder names above reflect the project folders in this repository. The `Data\Input` folder is used for the invoice files, and `Output-Screenshots` contains project evidence.
 
 ## Output Screenshots
-![Goolge Sheet Output](</PDF Invoice Scraper with REFramework Perfomer/Output_Screenshots/google_sheet.png>)
+
+**Publish Dispatcher Successfully**
+
+![Publish Dispatcher Successfully](<PDF Invoice Scraper with REFramework Perfomer/Output_Screenshots/publish_dispatcher.png>)
+
+**Publish Performer Successfully**
+
+![Publish Performer Successfully](<PDF Invoice Scraper with REFramework Perfomer/Output_Screenshots/publish_perfomer.png>)
+
+**Google Sheet Output**
+
+![Google Sheet Output](<PDF Invoice Scraper with REFramework Perfomer/Output_Screenshots/google_sheet.png>)
+
+**Orchestrator**
+
+![Orchestrator](<PDF Invoice Scraper with REFramework Perfomer/Output_Screenshots/orchestrator.png>)
 
 ## Technologies Used
 
