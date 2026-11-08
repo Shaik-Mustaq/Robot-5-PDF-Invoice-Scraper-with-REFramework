@@ -1,0 +1,6 @@
+{
+  "Name": "Robot 5 PDF Invoice Scraper with REFramework Dispatcher",
+  "ProjectType": "Process",
+  "Description": "Create queue items for invoices to scrape.",
+  "MainFile": "Main.xaml"
+}

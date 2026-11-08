@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2LO8bDUyL0KjenZVmhze3w" Reference="BssEFuFHckiLW_K1nxTfkA/AXxS2n4PmU2NR9U3Bs-O2Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="" CVScreenId="330ca3c0-e5a8-45e8-97cf-138eee7dd26a" CvType="AnyWordGroup" DesignTimeRectangle="1252, 530, 50, 26" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl role='document' name='Invoice *.pdf' /&gt;&lt;ctrl name='PDF Document' role='document' /&gt;&lt;ctrl name='PDF document containing 1 page' role='document' /&gt;&lt;ctrl name='Page 1' role='pane' /&gt;&lt;ctrl idx='5' role='row' /&gt;&lt;ctrl role='cell' idx='2' /&gt;&lt;ctrl role='grouping' /&gt;" Guid="84053308-3580-42e3-b828-b09869db8365" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Invoice *.pdf - Personal - Microsoft​ Edge' /&gt;" SearchSteps="Selector, CV" SelectionStrategy="AA" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1252, 500, 170, 27" FuzzySelectorArgument="&lt;ctrl name='Invoice *.pdf' matching:name='fuzzy' fuzzylevel:name='0.0' role='document' /&gt;&lt;ctrl name='PDF Document' matching:name='fuzzy' fuzzylevel:name='0.0' role='document' /&gt;&lt;ctrl name='PDF document containing 1 page' matching:name='fuzzy' fuzzylevel:name='0.0' role='document' /&gt;&lt;ctrl name='Page 1' matching:name='fuzzy' fuzzylevel:name='0.0' role='pane' /&gt;&lt;ctrl role='row' /&gt;&lt;ctrl name='Invoice Number ' matching:name='fuzzy' fuzzylevel:name='0.0' role='cell' /&gt;&lt;ctrl role='grouping' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Invoice Number' /&gt;" Guid="b5e02ea0-c3d0-4739-8e6e-fc96f31ffdb0" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bf5997d1c9591e61c1552372b462ea2b.jpg" xmlns="">0WUZpJT29IkqWjtvTiAD3gQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,28 @@
+﻿{
+  "Version": "1.0",
+  "Metadata": [
+    {
+      "ApplicationType": "Edge",
+      "ExecutablePath": {
+        "Value": "msedge.exe",
+        "IsExpression": false
+      },
+      "Url": {
+        "Value": "New Uri(System.IO.Path.Combine(Environment.CurrentDirectory, \"Data\",\"Input\", in_TransactionItem.SpecificContent(\"RelativePath\").ToString())).AbsoluteUri",
+        "IsExpression": true
+      },
+      "Arguments": null,
+      "Version": null
+    },
+    {
+      "ApplicationType": "Edge",
+      "ExecutablePath": {
+        "Value": "msedge.exe",
+        "IsExpression": false
+      },
+      "Url": null,
+      "Arguments": null,
+      "Version": null
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Sample Invoice",
+  "Type": "Element",
+  "Id": "FygYNpVTFkelmBx91SicsA",
+  "Reference": "BssEFuFHckiLW_K1nxTfkA/FygYNpVTFkelmBx91SicsA",
+  "ParentRef": "BssEFuFHckiLW_K1nxTfkA/Sm_ESFTlVkK8_pB8TTuYFA",
+  "Created": "2026-11-07T07:26:44.0476713Z",
+  "Updated": "2026-11-07T07:26:44.0476713Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

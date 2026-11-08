@@ -1,0 +1,10 @@
+{
+  "Tags": [
+    {
+      "Key": "ReFramework"
+    }
+  ],
+  "SeparateRuntimeDependencies": true,
+  "IncludeSources": true,
+  "ConnectorKeys": []
+}

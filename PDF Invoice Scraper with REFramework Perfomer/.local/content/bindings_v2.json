@@ -1,0 +1,75 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "activityDisplayName": "Get transaction item",
+      "activityId": "GetQueueItem_2",
+      "resource": "queue",
+      "key": "Operations.InvoiceQueue",
+      "id": "queueOperations.InvoiceQueueOperationsFalseInvoiceQueueFalse",
+      "value": {
+        "folderPath": {
+          "defaultValue": "Operations",
+          "isExpression": false,
+          "displayName": "Folder path"
+        },
+        "name": {
+          "defaultValue": "InvoiceQueue",
+          "isExpression": false,
+          "displayName": "Queue name"
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.2"
+      }
+    },
+    {
+      "activityDisplayName": "Write Row in the Google Sheet",
+      "activityId": "WriteRowConnections_3",
+      "resource": "Connection",
+      "key": "e9b4afdc-79b9-4df1-8da9-1f49db74ba82",
+      "id": "Connectione9b4afdc-79b9-4df1-8da9-1f49db74ba82e9b4afdc-79b9-4df1-8da9-1f49db74ba82False",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "e9b4afdc-79b9-4df1-8da9-1f49db74ba82",
+          "isExpression": false,
+          "displayName": "Connection",
+          "description": "The connection to be used"
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.2",
+        "Connector": "uipath-google-sheets",
+        "UseConnectionService": "True"
+      }
+    },
+    {
+      "activityDisplayName": "Write Row in the Google Sheet",
+      "activityId": "WriteRowConnections_3",
+      "resource": "Property",
+      "key": "e9b4afdc-79b9-4df1-8da9-1f49db74ba82.Write Row in the Google Sheet",
+      "id": "Propertye9b4afdc-79b9-4df1-8da9-1f49db74ba82.Write Row in the Google SheetScraped Invoice ReportFalsehttps://docs.google.com/spreadsheets/d/150jLk2QDqfa2x4qLRbAVUZ-CAvGsP8HEW7fJvLZeybc/edit?usp=drivesdkFalse",
+      "value": {
+        "FullName": {
+          "defaultValue": "Scraped Invoice Report",
+          "isExpression": false,
+          "displayName": "Spreadsheet",
+          "description": "The Google spreadsheet file to use"
+        },
+        "ID": {
+          "defaultValue": "https://docs.google.com/spreadsheets/d/150jLk2QDqfa2x4qLRbAVUZ-CAvGsP8HEW7fJvLZeybc/edit?usp=drivesdk",
+          "isExpression": false,
+          "displayName": "Spreadsheet URL or ID",
+          "description": "The URL or ID of the spreadsheet of interest"
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.1",
+        "ActivityName": "Write Row in the Google Sheet",
+        "ObjectName": "CuratedFile",
+        "DisplayLabel": "FullName",
+        "ParentResourceKey": "Connection.e9b4afdc-79b9-4df1-8da9-1f49db74ba82"
+      }
+    }
+  ]
+}

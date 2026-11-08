@@ -1,0 +1,6 @@
+{
+  "Name": "Robot 5 PDF Invoice Scraper with REFramework Performer",
+  "ProjectType": "Process",
+  "Description": "Scraped data from PDF invoices and captures the data into a Google Sheet.",
+  "MainFile": "Main.xaml"
+}
